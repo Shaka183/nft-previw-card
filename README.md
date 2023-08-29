@@ -11,7 +11,7 @@
 - [O que aprendi](#o-que-aprendi)
 - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Recursos úteis](#recursos-úteis)
-- [Fernando Mendes](#autor)
+- [Eduardo Marques Nascimento](#autor)
 
 <!-- ### Captura de tela
 
