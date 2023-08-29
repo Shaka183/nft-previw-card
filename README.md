@@ -38,7 +38,7 @@
  -->
 ### Links
 
-- Site URL: https://nandosti.github.io/nft-preview-card-component-main/
+- Site URL: https://shaka183.github.io/nft-previw-card/
 
 ### Construído com
 
