@@ -1,0 +1,165 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--Very-dark);
+}
+
+.container .card {
+    background-color: var(--Very-dark-2);
+    height: 400px;
+    width: 240px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.container .card .Equilibrium {
+    width: 210px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.container .card .imagens {
+    position: relative;
+}
+
+.container .card .caixa {
+    position: absolute;
+    top: 0;
+    background-color: var(--houver);
+    width:210px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 15px 15px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.container .card .caixa:hover {
+    opacity: 1;
+}
+
+.container .card .caixa .olho {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50% );
+}
+
+.container .card h1 {
+    display: flex;
+    margin: 10px 15px;
+    font-size: 15px;
+    color: var(--White);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card h1:hover {
+    color:var(--Cyan);
+}
+
+.container .card .text {
+    text-align: left;
+    font-size: 13px;
+    color: var(--Soft-blue);
+    margin-left:15px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    
+}
+
+.container .card .icones {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top:15px; 
+}
+
+.container .card .icones .azul {
+    display: flex;
+    align-items: center;
+    color: var(--Cyan);
+    margin-left: 13px;
+    
+}
+.container .card .icones .cinza {
+    display: flex;
+    align-items: center;
+    color: var(--Soft-blue);
+    margin-right: 20px;
+}
+
+.container .card .icones .azul::before{
+    content: '';
+    background-image: url(../images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 18px;
+    width: 10px;
+    margin-right: 5px;
+}
+.container .card .icones .cinza::before{
+    content: '';
+    background-image: url(../images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 20px;
+    width: 18px;
+    margin-right:4px;
+}
+
+.container .card .foot  {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 20px 15px;
+    padding-left: 5px;
+    border-top: 1px solid var(--Very-dark-3);
+    padding-top: 2px;
+}
+
+.container .card .foot .avatar {
+    width: 25px;
+    margin: 5px 0  0 -10px;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.container .card .foot p {
+
+    color: var(--Soft-blue);
+    margin-left: 10px;
+    
+    
+}
+
+.container .card .foot span {
+    color: var(--White);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card .foot span:hover {
+    color: var(--Cyan);
+}
+
+
+
+
+
+
+
+
+
+
+
+
